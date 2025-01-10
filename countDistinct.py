@@ -16,8 +16,8 @@ Window 2 of size k = 2 is 1 1. Number of distinct elements in this window is 1.
 Input: arr[] = [1, 1, 1, 1, 1], k = 3
 Output: [1, 1, 1]
 Constraints:
-1 <= k <= arr.size() <= 105
-1 <= arr[i] <= 105
+1 <= k <= arr.size() <= 10^5
+1 <= arr[i] <= 10^5
 """
 def countDistinct(self, arr, k):
         # Result array to store counts of distinct elements
