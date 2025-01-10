@@ -24,12 +24,10 @@ def countDistinct(self, arr, k):
         result = []
         # Hash map to store frequency of elements in the current window
         freq_map = {}
-        
         # Traverse the array
         for i in range(len(arr)):
             # Add the current element to the hash map
             freq_map[arr[i]] = freq_map.get(arr[i], 0) + 1
-            
             # If the current index is greater than or equal to k,
             # remove the element that slides out of the window
             if i >= k:
@@ -40,9 +38,7 @@ def countDistinct(self, arr, k):
                 # If the frequency becomes 0, remove the element from the map
                 if freq_map[out_element] == 0:
                     del freq_map[out_element]
-            
             # Once the first window of size k is formed, record the result
             if i >= k - 1:
                 result.append(len(freq_map))
-        
         return result
