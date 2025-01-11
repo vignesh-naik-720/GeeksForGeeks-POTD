@@ -26,11 +26,8 @@ def longestUniqueSubstr(self, s):
             while s[right] in char_set:
                 char_set.remove(s[left])
                 left += 1
-    
             # Add the current character to the set
             char_set.add(s[right])
-    
             # Update the maximum length
             max_length = max(max_length, right - left + 1)
-    
         return max_length  
