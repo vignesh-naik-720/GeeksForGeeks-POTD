@@ -24,12 +24,10 @@ def maxWater(self, arr):
         n = len(arr)
         if n < 3:
             return 0  # No water can be trapped if less than 3 blocks exist
-    
         # Initialize two pointers and variables to store maximum heights and total water
         left, right = 0, n - 1
         left_max, right_max = 0, 0
         water_trapped = 0
-    
         while left <= right:
             if arr[left] < arr[right]:
                 if arr[left] >= left_max:
