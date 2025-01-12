@@ -17,8 +17,8 @@ Input: arr[] = [2, 1, 5, 3, 1, 0, 4]
 Output: 9
 Explanation: Total water trapped = 0 + 1 + 0 + 1 + 3 + 4 + 0 = 9 units.
 Constraints:
-1 < arr.size() < 105
-0 < arr[i] < 103
+1 < arr.size() < 10^5
+0 < arr[i] < 10^3
 """
 def maxWater(self, arr):
         n = len(arr)
