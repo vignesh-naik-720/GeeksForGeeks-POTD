@@ -22,13 +22,11 @@ def maxWater(self, arr):
         # Initialize two pointers
         left, right = 0, len(arr) - 1
         max_area = 0
-    
         while left < right:
             # Calculate the current area
             height = min(arr[left], arr[right])
             width = right - left
             area = height * width
-    
             # Update max_area
             max_area = max(max_area, area)
     
