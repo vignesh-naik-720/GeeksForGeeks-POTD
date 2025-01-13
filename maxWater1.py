@@ -15,8 +15,8 @@ Input: arr[] = [2, 1, 8, 6, 4, 6, 5, 5]
 Output: 25 
 Explanation: 8 and 5 are 5 distance apart. So the size of the base is 5. Height of container = min(8, 5) = 5. So, the total area to hold water = 5 * 5 = 25.
 Constraints:
-1<= arr.size() <=105
-1<= arr[i] <=104
+1<= arr.size() <=10^5
+1<= arr[i] <=10^4
 """
 def maxWater(self, arr):
         # Initialize two pointers
