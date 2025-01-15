@@ -13,9 +13,9 @@ Input: arr[] = [10, -10, 20, 30], k = 5
 Output: 0
 Explanation: No subarray with sum = 5 is present in arr[].
 Constraints:
-1 ≤ arr.size() ≤ 105
--104 ≤ arr[i] ≤ 104
--109 ≤ k ≤ 109
+1 ≤ arr.size() ≤ 10^5
+-10^4 ≤ arr[i] ≤ 10^4
+-10^9 ≤ k ≤ 10^9
 """
 def longestSubarray(self, arr, k):  
         prefix_sum = {}
