@@ -16,7 +16,7 @@ Output: [0, 12]
 Explanation: For i = 0, res[i] is 0.
 For i = 1, res[i] is 12.
 Constraints:
-2 <= arr.size() <= 105
+2 <= arr.size() <= 10^5
 -100 <= arr[i] <= 100
 """
 def productExceptSelf(self, arr):
