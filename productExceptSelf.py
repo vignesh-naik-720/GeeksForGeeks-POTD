@@ -23,20 +23,16 @@ def productExceptSelf(self, arr):
         n = len(arr)
         if n < 2:
             return []
-    
         # Initialize the result array with ones
         res = [1] * n
-    
         # Calculate prefix products
         prefix = 1
         for i in range(n):
             res[i] = prefix
             prefix *= arr[i]
-    
         # Calculate suffix products and multiply with prefix products
         suffix = 1
         for i in range(n - 1, -1, -1):
             res[i] *= suffix
             suffix *= arr[i]
-    
         return res
