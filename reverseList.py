@@ -33,7 +33,6 @@ def reverseList(self, head):
         # Initialize previous and current pointers
         prev = None
         curr = head
-        
         while curr:
             # Temporarily store the next node
             next_node = curr.next
@@ -42,6 +41,5 @@ def reverseList(self, head):
             # Move the pointers one step forward
             prev = curr
             curr = next_node
-        
         # The new head is the previous node
         return prev
