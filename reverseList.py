@@ -16,7 +16,7 @@ Output: 2 -> NULL
 Explanation:
 
 Constraints:
-1 <= number of nodes, data of nodes <= 105
+1 <= number of nodes, data of nodes <= 10^5
 """
 #function Template for python3
 
