@@ -16,9 +16,9 @@ Output: 30 -> 40 -> 10 -> 20
  
 Constraints:
 
-1 <= number of nodes <= 105
-0 <= k <= 109
-0 <= data of node <= 109
+1 <= number of nodes <= 10^5
+0 <= k <= 10^9
+0 <= data of node <= 10^9
 """
 '''
 
