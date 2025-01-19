@@ -37,24 +37,21 @@ class Solution:
         if not head or k == 0:  # If the list is empty or no rotation is needed
             return head
         
-        # Step 1: Find the length of the linked list and the tail
+        # Find the length of the linked list and the tail
         length = 1
         tail = head
         while tail.next:
             tail = tail.next
             length += 1
-        
-        # Step 2: Optimize k
+        # Optimize k
         k = k % length
         if k == 0:  # If no effective rotation is needed
             return head
-        
-        # Step 3: Traverse to the k-th node
+        #Traverse to the k-th node
         new_tail = head
         for _ in range(k - 1):
             new_tail = new_tail.next
-        
-        # Step 4: Update pointers to perform the rotation
+        #Update pointers to perform the rotation
         new_head = new_tail.next  # The (k+1)-th node becomes the new head
         new_tail.next = None  # Break the link
         tail.next = head  # Connect the end of the list to the old head
