@@ -12,8 +12,8 @@ Output: 1 -> 1 -> 2 -> 4
 Explanation:
 
 Constraints:
-1 <= no. of nodes<= 103
-0 <= node->data <= 105
+1 <= no. of nodes<= 10^3
+0 <= node->data <= 10^5
 """
 def sortedMerge(self,head1, head2):
         # If one of the lists is empty, return the other
