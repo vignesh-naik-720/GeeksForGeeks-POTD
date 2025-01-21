@@ -19,7 +19,6 @@ Constraints:
 def reverseKGroup(self, head, k):
         if head is None or k == 1:
             return head
-    
         dummy = Node(0)
         dummy.next = head
         prev, curr, nex = dummy, dummy, dummy
@@ -29,7 +28,6 @@ def reverseKGroup(self, head, k):
         while curr.next:
             curr = curr.next
             length += 1
-    
         # Reverse nodes in k groups
         while length >= k:
             curr = prev.next
@@ -41,7 +39,6 @@ def reverseKGroup(self, head, k):
                 nex = curr.next
             prev = curr
             length -= k
-    
         # If remaining nodes are less than k, reverse them as well
         if length > 0:
             curr = prev.next
@@ -51,5 +48,4 @@ def reverseKGroup(self, head, k):
                 nex.next = prev.next
                 prev.next = nex
                 nex = curr.next
-    
         return dummy.next
