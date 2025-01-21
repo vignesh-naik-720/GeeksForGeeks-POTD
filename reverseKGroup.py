@@ -12,8 +12,8 @@ Output: 3 -> 2 -> 1 -> 5 -> 4
 
 Explanation: The first 3 elements 1, 2, 3 are reversed first and then left out elements 4, 5 are reversed. Hence, the resultant linked list is 3 -> 2 -> 1 -> 5 -> 4.
 Constraints:
-1 <= size of linked list <= 105
-1 <= data of nodes <= 106
+1 <= size of linked list <= 10^5
+1 <= data of nodes <= 10^6
 1 <= k <= size of linked list 
 """
 def reverseKGroup(self, head, k):
