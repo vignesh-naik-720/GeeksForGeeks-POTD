@@ -16,7 +16,7 @@ Output: 7 -> 0
  
 Explanation: Given numbers are 63 and 7. There sum is 70.
 Constraints:
-1 <= size of both linked lists <= 106
+1 <= size of both linked lists <= 10^6
 0 <= elements of both linked lists <= 9
 """
 def addTwoLists(self, num1, num2):
