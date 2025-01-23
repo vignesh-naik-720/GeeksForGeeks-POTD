@@ -50,17 +50,14 @@ def cloneLinkedList(self, head):
             if current.random:
                 current.next.random = current.random.next
             current = current.next.next
-        
         # Step 3: Separate the clone list from the original list
         original = head
         clone_head = head.next
         clone = clone_head
-        
         while original:
             original.next = original.next.next
             if clone.next:
                 clone.next = clone.next.next
             original = original.next
             clone = clone.next
-        
         return clone_head
