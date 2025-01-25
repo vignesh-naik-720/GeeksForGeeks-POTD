@@ -15,8 +15,8 @@ Input:
 Output: -1
 Explanation: No loop exists in the above linked list.So the output is -1.
 Constraints:
-1 <= no. of nodes <= 106
-1 <= node->data <= 106 
+1 <= no. of nodes <= 10^6
+1 <= node->data <= 10^6 
 """
 def findFirstNode(self, head):
         # Initialize slow and fast pointers
