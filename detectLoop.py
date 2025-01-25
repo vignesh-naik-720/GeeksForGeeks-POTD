@@ -20,8 +20,8 @@ Explanation: There exists a loop as last node is connected back to the first nod
 
 
 Constraints:
-1 ≤ number of nodes ≤ 104
-1 ≤ node->data ≤ 103       
+1 ≤ number of nodes ≤ 10^4
+1 ≤ node->data ≤ 10^3       
 0 ≤ pos ≤ Number of nodes in Linked List
 """
 def detectLoop(self, head):
