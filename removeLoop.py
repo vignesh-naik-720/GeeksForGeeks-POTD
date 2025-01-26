@@ -38,12 +38,10 @@ Constraints:
                 if slow == fast:
                     return slow  # Meeting point
             return None
-        
         # Remove the loop if detected
         meeting_node = detectMeetingNode(head)
         if not meeting_node:
             return True  # No loop detected
-        
         # Find the start of the loop
         slow = head
         if slow == meeting_node:
