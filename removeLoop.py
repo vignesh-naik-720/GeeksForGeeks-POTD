@@ -27,31 +27,31 @@ Constraints:
 1 ≤ size of linked list ≤ 10^5
 """
 #Function to remove a loop in the linked list.
-    def removeLoop(self, head):
-        # Helper function to detect the loop
-        def detectMeetingNode(head):
-            slow, fast = head, head
-            while fast and fast.next:
-                slow = slow.next
-                fast = fast.next.next
-                if slow == fast:
-                    return slow  # Meeting point
-            return None
-        # Remove the loop if detected
-        meeting_node = detectMeetingNode(head)
-        if not meeting_node:
-            return True  # No loop detected
-        # Find the start of the loop
-        slow = head
-        if slow == meeting_node:
-            # Loop starts at head
-            while meeting_node.next != slow:
-                meeting_node = meeting_node.next
-        else:
-            while slow.next != meeting_node.next:
-                slow = slow.next
-                meeting_node = meeting_node.next
-        
-        # Break the loop
-        meeting_node.next = None
-        return True
+def removeLoop(self, head):
+    # Helper function to detect the loop
+    def detectMeetingNode(head):
+        slow, fast = head, head
+        while fast and fast.next:
+            slow = slow.next
+            fast = fast.next.next
+            if slow == fast:
+                return slow  # Meeting point
+        return None
+    # Remove the loop if detected
+    meeting_node = detectMeetingNode(head)
+    if not meeting_node:
+        return True  # No loop detected
+    # Find the start of the loop
+    slow = head
+    if slow == meeting_node:
+        # Loop starts at head
+        while meeting_node.next != slow:
+            meeting_node = meeting_node.next
+    else:
+        while slow.next != meeting_node.next:
+            slow = slow.next
+            meeting_node = meeting_node.next
+    
+    # Break the loop
+    meeting_node.next = None
+    return True
