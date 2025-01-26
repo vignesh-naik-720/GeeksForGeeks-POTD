@@ -12,7 +12,6 @@ Examples:
 Input: head = 1 -> 3 -> 4, pos = 2
 Output: true
 Explanation: The linked list looks like
-
 A loop is present in the list, and it is removed.
 Input: head = 1 -> 8 -> 3 -> 4, pos = 0
 Output: true
