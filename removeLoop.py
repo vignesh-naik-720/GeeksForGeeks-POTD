@@ -25,7 +25,7 @@ Explanation: The linked list looks like
 
 A loop is present in the list, and it is removed.
 Constraints:
-1 ≤ size of linked list ≤ 105
+1 ≤ size of linked list ≤ 10^5
 """
 #Function to remove a loop in the linked list.
     def removeLoop(self, head):
