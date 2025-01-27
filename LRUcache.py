@@ -1,6 +1,5 @@
 """
 Design a data structure that works like a LRU Cache. Here cap denotes the capacity of the cache and Q denotes the number of queries. Query can be of two types:
-
 PUT x y: sets the value of the key x with value y
 GET x: gets the key of x if present else returns -1.
 The LRUCache class has two methods get() and put() which are defined as follows.
