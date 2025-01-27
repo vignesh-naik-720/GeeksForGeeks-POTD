@@ -43,7 +43,6 @@ class LRUCache:
         self.cache = OrderedDict()
         self.capacity = cap
         
-        
     #Function to return value corresponding to the key.
     def get(self, key):
         if key in self.cache:
@@ -52,7 +51,6 @@ class LRUCache:
             return self.cache[key]
         else:
             return -1
-        
         
     #Function for storing key-value pair.   
     def put(self, key, value):
