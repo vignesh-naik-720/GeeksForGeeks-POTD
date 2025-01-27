@@ -8,7 +8,6 @@ get(key): returns the value of the key if it already exists in the cache otherwi
 put(key, value): if the key is already present, update its value. If not present, add the key-value pair to the cache. If the cache reaches its capacity it should remove the least recently used item before inserting the new item.
 In the constructor of the class the capacity of the cache should be initialized.
 Examples:
-
 Input: cap = 2, Q = 2, Queries = [["PUT", 1, 2], ["GET", 1]]
 Output: [2]
 Explanation: Cache Size = 2
