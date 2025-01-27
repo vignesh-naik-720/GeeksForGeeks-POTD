@@ -27,9 +27,9 @@ Explanation: Cache Size = 2
 ["PUT", 1, 2] : 4 -> 5, 1 -> 2  (Cache size is 2, hence we delete the least recently used key-value pair)
 ["GET", 3] : No key value pair having key = 3. Hence, -1 is printed.
 Constraints:
-1 <= cap <= 103
-1 <= Q <= 105
-1 <= x, y <= 104
+1 <= cap <= 10^3
+1 <= Q <= 10^5
+1 <= x, y <= 10^4
 """
 
 #User function Template for python3
