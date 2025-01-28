@@ -20,7 +20,6 @@ from itertools import permutations
 def findPermutation(self, s):
         # Generate all permutations of the string
         all_perms = permutations(s)
-    
         # Use a set to store unique permutations
         unique_perms = set(all_perms)
     
