@@ -22,7 +22,6 @@ def findPermutation(self, s):
         all_perms = permutations(s)
         # Use a set to store unique permutations
         unique_perms = set(all_perms)
-    
         # Convert tuples to strings and return as a list
         return sorted([''.join(perm) for perm in unique_perms])
         
