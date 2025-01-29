@@ -16,6 +16,5 @@ Either b is not zero or e > 0.
 def power(self, b: float, e: int) -> float:
         # Using Python's built-in power function for efficiency
         result = pow(b, e)
-        
         # Rounding to 5 decimal places as per examples
         return round(result, 5)
