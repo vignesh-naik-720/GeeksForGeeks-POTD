@@ -11,7 +11,7 @@ Constraints:
 -100.0 < b < 100.0
 -109 <= e <= 109
 Either b is not zero or e > 0.
--104 <= be <= 104
+-10^4 <= b^e <= 10^4
 """
 def power(self, b: float, e: int) -> float:
         # Using Python's built-in power function for efficiency
