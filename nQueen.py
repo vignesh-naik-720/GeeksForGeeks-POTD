@@ -24,7 +24,6 @@ def nQueen(self, n):
                 if r == row or abs(r - row) == abs(c - col):
                     return False
             return True
-    
         def solve(col, queen_positions, results):
             if col == n:
                 results.append(queen_positions[:])
