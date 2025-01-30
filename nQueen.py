@@ -33,7 +33,6 @@ def nQueen(self, n):
                     queen_positions[col] = row
                     solve(col + 1, queen_positions, results)
                     queen_positions[col] = 0  # Backtrack
-        
         results = []
         solve(0, [0] * n, results)
         return results
