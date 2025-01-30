@@ -8,7 +8,6 @@ For eg. below figure represents a chessboard [3 1 4 2].
 
 
 Examples:
-
 Input: n = 1
 Output: [1]
 Explaination: Only one queen can be placed in the single cell available.
