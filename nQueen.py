@@ -28,7 +28,6 @@ def nQueen(self, n):
             if col == n:
                 results.append(queen_positions[:])
                 return
-            
             for row in range(1, n + 1):
                 if is_safe(queen_positions, row, col):
                     queen_positions[col] = row
