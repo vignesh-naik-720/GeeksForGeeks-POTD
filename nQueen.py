@@ -5,7 +5,6 @@ Given an integer n, find all distinct solutions to the n-queens puzzle.
 You can return your answer in any order but each solution should represent a distinct board configuration of the queen placements, where the solutions are represented as permutations of [1, 2, 3, ..., n]. In this representation, the number in the ith position denotes the row in which the queen is placed in the ith column.
 For eg. below figure represents a chessboard [3 1 4 2].
 
-
 Examples:
 Input: n = 1
 Output: [1]
