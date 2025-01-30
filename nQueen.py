@@ -6,7 +6,6 @@ You can return your answer in any order but each solution should represent a dis
 For eg. below figure represents a chessboard [3 1 4 2].
 
 
-
 Examples:
 Input: n = 1
 Output: [1]
