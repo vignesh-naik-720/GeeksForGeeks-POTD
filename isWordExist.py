@@ -37,7 +37,6 @@ def isWordExist(self, mat, word):
                      dfs(x, y - 1, index + 1))
             
             mat[x][y] = temp  # Restore the cell
-            
             return found
 
         for i in range(n):
