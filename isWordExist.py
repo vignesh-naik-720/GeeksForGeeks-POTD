@@ -29,7 +29,6 @@ def isWordExist(self, mat, word):
                 return True
             if x < 0 or y < 0 or x >= n or y >= m or mat[x][y] != word[index]:  
                 return False
-            
             temp, mat[x][y] = mat[x][y], '#'  # Mark the cell as visited
             
             # Explore all 4 possible directions: up, down, left, right
