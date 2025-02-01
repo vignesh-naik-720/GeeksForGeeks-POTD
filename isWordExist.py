@@ -27,7 +27,6 @@ def isWordExist(self, mat, word):
         def dfs(x, y, index):
             if index == len(word):  # If all characters of the word are matched
                 return True
-            
             if x < 0 or y < 0 or x >= n or y >= m or mat[x][y] != word[index]:  
                 return False
             
