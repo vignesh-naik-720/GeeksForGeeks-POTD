@@ -24,7 +24,6 @@ Constraints:
 """
 def isWordExist(self, mat, word):
 		n, m = len(mat), len(mat[0])
-
         def dfs(x, y, index):
             if index == len(word):  # If all characters of the word are matched
                 return True
