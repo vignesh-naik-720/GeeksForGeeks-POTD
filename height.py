@@ -14,8 +14,8 @@ Input: root[] = [1, 2, 3, 4, N, N, 5, N, N, 6, 7]
 Output: 3
 Explanation: The longest path from the root (node 1) to a leaf node 6 with 3 edge.
 Constraints:
-1 <= number of nodes <= 105
-0 <= node->data <= 105
+1 <= number of nodes <= 10^5
+0 <= node->data <= 10^5
 """
 def height(self, root):
         # Base case: if root is None, return -1 (for edge count definition)
