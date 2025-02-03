@@ -21,10 +21,8 @@ def height(self, root):
         # Base case: if root is None, return -1 (for edge count definition)
         if root is None:
             return -1  # If considering height in terms of nodes, return 0
-        
         # Recursively find the height of left and right subtrees
         left_height = self.height(root.left)
         right_height = self.height(root.right)
-        
         # Return the maximum height of left or right subtree plus 1 (for the current edge)
         return max(left_height, right_height) + 1
