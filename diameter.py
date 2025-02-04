@@ -5,10 +5,8 @@ Input: root[] = [1, 2, 3]
 Output: 2
 Explanation: The longest path has 2 edges (node 2 -> node 1 -> node 3).
 Input: root[] = [5, 8, 6, 3, 7, 9]
-
 Output: 4
 Explanation: The longest path has 4 edges (node 3 -> node 8 -> node 5 -> node 6 -> node 9).
-
 Constraints:
 1 ≤ number of nodes ≤ 105
 0 ≤ node->data ≤ 105
