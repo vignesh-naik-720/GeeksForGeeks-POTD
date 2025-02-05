@@ -22,5 +22,4 @@ def mirror(self, root):
         # Recursively call mirror on left and right subtrees
         self.mirror(root.left)
         self.mirror(root.right)
-        
         return root
