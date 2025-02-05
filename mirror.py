@@ -18,8 +18,7 @@ def mirror(self, root):
         if root is None:
             return
         # Swap the left and right subtrees
-        root.left, root.right = root.right, root.left
-        
+        root.left, root.right = root.right, root.left  
         # Recursively call mirror on left and right subtrees
         self.mirror(root.left)
         self.mirror(root.right)
