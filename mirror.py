@@ -17,7 +17,6 @@ Constraints:
 def mirror(self, root):
         if root is None:
             return
-        
         # Swap the left and right subtrees
         root.left, root.right = root.right, root.left
         
