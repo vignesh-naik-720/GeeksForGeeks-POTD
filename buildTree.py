@@ -2,7 +2,6 @@
 Given two arrays representing the inorder and preorder traversals of a binary tree, construct the tree and return the root node of the constructed tree.
 
 Note: The output is written in postorder traversal.
-
 Examples:
 Input: inorder[] = [1, 6, 8, 7], preorder[] = [1, 6, 7, 8]
 Output: [8, 7, 6, 1]
