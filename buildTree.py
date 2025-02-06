@@ -16,8 +16,8 @@ Output: [2, 5, 4, 3, 1]
 Explanation: The tree will look like
 
 Constraints:
-1 ≤ number of nodes ≤ 103
-0 ≤ nodes -> data ≤ 103
+1 ≤ number of nodes ≤ 10^3
+0 ≤ nodes -> data ≤ 10^3
 Both the inorder and preorder arrays contain unique values.
 """
 def buildTree(self, inorder, preorder):
