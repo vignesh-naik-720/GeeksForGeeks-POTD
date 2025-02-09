@@ -14,8 +14,8 @@ Explanation:
 
 Max path sum is represented using green colour nodes in the above binary tree.
 Constraints:
-1 ≤ number of nodes ≤ 103
--104 ≤ node->data ≤ 104
+1 ≤ number of nodes ≤ 10^3
+-10^4 ≤ node->data ≤ 10^4
 """
 def findMaxSum(self, root): 
         self.max_sum = float('-inf')  # Variable to store the maximum path sum
