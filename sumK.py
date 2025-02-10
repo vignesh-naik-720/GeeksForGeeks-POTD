@@ -18,9 +18,9 @@ Path 2 : 3 (Sum = 3)
 
 Constraints:
 
-1 ≤ number of nodes ≤ 104
+1 ≤ number of nodes ≤ 10^4
 -100 ≤ node value ≤ 100
--109 ≤ k ≤ 109
+-10^9 ≤ k ≤ 10^9
 """
 def sumK(self,root,k):
         def dfs(node, current_sum):
