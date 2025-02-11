@@ -25,8 +25,8 @@ Input: root = [10, 5, 20, N, N, 9, 25]
 Output: false
 Explanation: The node with key 9 present in the right subtree has lesser key value than root node.
 Constraints:
-1 ≤ number of nodes ≤ 105
-1 ≤ node->data ≤ 109
+1 ≤ number of nodes ≤ 10^5
+1 ≤ node->data ≤ 10^9
 """
 # Helper function to validate the BST
     def isBSTUtil(self, root, min_val, max_val):
