@@ -17,8 +17,8 @@ Output: 10
 Explanation: 10 is the 3rd smallest element in the BST.
 Constraints:
 
-1 <= number of nodes, k <= 105
-1 <= node->data <= 105
+1 <= number of nodes, k <= 10^5
+1 <= node->data <= 10^5
 """
 def kthSmallest(self, root, k): 
         self.k = k
