@@ -23,8 +23,8 @@ The arr[] has 3 sorted linked list of size 2, 3, 1.
 The merged list will be:
 
 Constraints
-1 <= total no. of nodes <= 105
-1 <= node->data <= 103
+1 <= total no. of nodes <= 10^5
+1 <= node->data <= 10^3
 """
 import heapq
 '''
